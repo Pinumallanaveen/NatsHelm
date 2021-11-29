@@ -87,7 +87,7 @@ nats:
     enabled: true
 
     # Jetstream Domain
-    domain:
+    domain: 10.0.0.7:4222
 
     ##########################
     #                        #
@@ -119,7 +119,7 @@ nats:
     ############################
     fileStorage:
       enabled: false
-      storageDirectory: /data
+      storageDirectory: /mnt/d/Desktop/k8s-main/helm/charts/nats
 
       # Set for use with existing PVC
       # existingClaim: jetstream-pvc
